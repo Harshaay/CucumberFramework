@@ -1,0 +1,4 @@
+# Created at 2025-04-01T23:23:05.493
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Learn_Cucumber_BDD_with_Java_MasterClass_Selenium_Framework\BDD_Cucumber\CucumberFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

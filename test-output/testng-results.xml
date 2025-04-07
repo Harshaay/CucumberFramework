@@ -1,96 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-05T21:41:44 IST" name="Default suite" finished-at="2025-04-05T21:42:29 IST" duration-ms="44517">
+  <suite started-at="2025-04-08T00:47:50 IST" name="Default suite" finished-at="2025-04-08T00:47:50 IST" duration-ms="155">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@623a8092]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-05T21:41:44 IST" name="Default test" finished-at="2025-04-05T21:42:29 IST" duration-ms="44517">
-      <class name="cucumberOptions.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@623a8092]" started-at="2025-04-05T21:41:44 IST" name="setUpClass" finished-at="2025-04-05T21:41:45 IST" duration-ms="1291" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@72ee5d84]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-04-08T00:47:50 IST" name="Default test" finished-at="2025-04-08T00:47:50 IST" duration-ms="155">
+      <class name="pageObjects.GitPage">
+        <test-method signature="gitPractice()[pri:0, instance:pageObjects.GitPage@710f4dc7]" started-at="2025-04-08T00:47:50 IST" name="gitPractice" finished-at="2025-04-08T00:47:50 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@623a8092]" started-at="2025-04-05T21:41:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-05T21:42:25 IST" duration-ms="39469" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Search the product in home page and add the product to Kart"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search and Add product to the Kart"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@623a8092]" started-at="2025-04-05T21:41:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-05T21:42:27 IST" duration-ms="41860" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Search Experience for product search in both home and Offers page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search and Place the order for products"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@623a8092]" started-at="2025-04-05T21:41:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-05T21:42:28 IST" duration-ms="42206" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Search Experience for product search in both home and Offers page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search and Place the order for products"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Beetroot] but found [No data]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Beetroot] but found [No data]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinitions.OfferPageStepDefinition.validate_product_name_in_offers_page_matches_with_Landing_page(OfferPageStepDefinition.java:59)
-at ✽.validate product name in offers page matches with Landing page(file:///D:/Learn_Cucumber_BDD_with_Java_MasterClass_Selenium_Framework/BDD_Cucumber/CucumberFramework/src/test/java/features/searchProduct.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@623a8092]" started-at="2025-04-05T21:42:28 IST" name="tearDownClass" finished-at="2025-04-05T21:42:29 IST" duration-ms="926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.TestNGTestRunner -->
+        </test-method> <!-- gitPractice -->
+      </class> <!-- pageObjects.GitPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

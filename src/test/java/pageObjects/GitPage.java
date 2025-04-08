@@ -17,6 +17,7 @@ public class GitPage {
 		System.out.println("gitPractice2");
 	}
 	
+
 	
 	public void secondgitbranchpractice()
 	{
@@ -25,5 +26,13 @@ public class GitPage {
 		System.out.println("second git practice3");
 		System.out.println("second git practice4");
 		System.out.println("second git practice5");
+	}
+	public void gitbranch()
+	{
+		System.out.println("git branch practice1");
+		System.out.println("git branch practice2");
+		System.out.println("git branch practice3");
+		System.out.println("git branch practice4");
+		
 	}
 }

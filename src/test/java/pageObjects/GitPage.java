@@ -16,4 +16,14 @@ public class GitPage {
 	{
 		System.out.println("gitPractice2");
 	}
+	
+	
+	public void secondgitbranchpractice()
+	{
+		System.out.println("second git practice1");
+		System.out.println("second git practice2");
+		System.out.println("second git practice3");
+		System.out.println("second git practice4");
+		System.out.println("second git practice5");
+	}
 }
